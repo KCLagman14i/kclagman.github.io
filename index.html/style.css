@@ -489,21 +489,6 @@ box-shadow: inset 20px 20px 20px #0000008c;
 
 }
 
-.samp {
-    font-size: 15px;
-    font-family: 'Poppins', sans-serif;
-    color: #ffffff;
-    text-align: center;
-}
-
-.samp1 {
-    font-size: 15px;
-    font-family: 'Poppins', sans-serif;
-    color: #ffffff;
-    text-align: center;
-    margin-top: 5px;
-}
-
 .stress {
     display:flex;
      flex-direction: column;
@@ -785,42 +770,107 @@ address {
       background-positon-x: 0px;
     }
   }
-    
-/* media Queries */
-@media all and (max-width: 400px) { 
+ 
+ /*media query*/
+@media only  screen  and (max-width: 360px) {
    .navbar {
     margin-left: 200px;
-     margin-top: 50px; 
-    
-    
+     margin-top: 10px; 
+     margin-bottom: 10px;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     
    }
- 
+
+   .box {
+    font-size: 30px;
+    margin-bottom: 5px;
+   }
+
+   .logo {
+    font-size: 30px;
+   }
+
+   .villain {
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    background-color: #000000;
+    transform: translateX(70%) translateY(-40%);
+   }
+   
+   .gradient {
+        font-size: 50px;
+   }
+
+   h2, h3 {
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;  
+   
+   }
+
+   .explore {
+
+    transform: translateX(-50%) translateY(-50%);
+   }
+
    .container {
     display: flex;
     flex-direction: column;
     align-items:center;
     background-color: #000000;
+    margin-bottom: 10px;
+   }
+ 
+   .hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transform: translateX(-60%) translateY(-50%);
+
    }
 
-   .box {
-    margin: 10px;
-    background-color: #000000;
+   .anti {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transform: translateX(30%) translateY(-150%);
+
    }
+
+   .icons {
+    transform: translateX(30%) translateY(-950%);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+   }
+
+   .fa-facebook {
+    font-size: 30px;
+   }
+
+   .fa-square-instagram {
+    font-size: 30px;
+   }
+   
+   .fa-square-behance {
+    font-size: 30px;
+   }
+
+   .welcome {
+    transform: translateX(30%) translateY(-570%);
+   }
+
+   .graph {
+    transform: translateX(30%) translateY(-1250%);
+   }
+ 
+   h5 {
+    transform: translateX(30%) translateY(-3550%);
   
-   .villain {
-      margin-left: 600px;
-      margin-top: -50px;
-      margin-bottom: 100px;
-      background-color: #000000;
    }
-  .karl {
-    margin-top: -400px;
-    margin-left: 300px;
-  }
-
-  /* sec-2 media */
- .welcome {
-    margin-left: 100px;
+ .sec-2 {
     background-color: #000000;
  }
 
@@ -829,75 +879,417 @@ address {
     flex-direction: column;
     align-items: center;
     background-color: #000000;
+    transform: translateX(30%) translateY(-50%);
  }
 
- .sec-2 {
-
+ .content {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 500px;
-    height: 500px;
     background-color: #000000;
+    transform: translateX(30%) translateY(-50%);
+  
  }
 
-  .content{
-    display: flex;
-     flex-direction: column;
-     align-items: center;
-     margin-bottom: 1000px;
-     background-color: #000000;
-    
+ .charlie {
+    margin: 10px;
+ }
 
-  } 
+ .prod {
+    transform: translateX(30%) translateY(-970%);
+ }
 
-
-  .canister {
+ .canister {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 1000px;
-    margin-left: 300px;
     background-color: #000000;
-   
-  }
-
-  .prod {
-   
-    margin-top: 700px;
-    background-color: #000000;
-  }
-
- .samp {
-    margin-bottom: 500px;
-    color: #181818;
+    transform: translateX(30%) translateY(-50%);
  }
 
- .samp1 {
-    
-    margin-bottom: 1000px;
-    color: #181818;
+ .sec-3 {
+    background-color: #000000;
  }
+
  .driver {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-left: 200px;
-    background-color: #000000;
+    transform: translateX(30%) translateY(-20%);
  }
 
-.universal-container {
+ .universal-container {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-left: 200px;
-    background-color: #000000;
-}
+    transform: translateX(30%) translateY(-10%);
+    
+ }
 
+ .p-accent {
+    font-size: 20px;
+ }
+
+ .com-2 {
+    font-size: 20px;
+ }
+  
+ .final-section2 {
+    transform: translateX(10%) translateY(40%);
+ }
 
 .footer {
     margin-left: 50px;
-   
+    width: 100vh;
+    transform: translate(-10%);
 }
 
 }
+
+@media only  screen  and (max-width: 451px) {
+    .navbar {
+     margin-left: 200px;
+      margin-top: 10px; 
+      margin-bottom: 10px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      
+    }
+ 
+    .box {
+     font-size: 30px;
+     margin-bottom: 5px;
+    }
+ 
+    .logo {
+     font-size: 30px;
+    }
+ 
+    .villain {
+     display: flex;
+     flex-direction: column;
+     align-items:center;
+     background-color: #000000;
+     transform: translateX(70%) translateY(-40%);
+    }
+    
+    .gradient {
+         font-size: 50px;
+    }
+ 
+    h2, h3 {
+     font-size: 20px;
+     font-family: 'Poppins', sans-serif;  
+    
+    }
+ 
+    .explore {
+ 
+     transform: translateX(-50%) translateY(-50%);
+    }
+ 
+    .container {
+     display: flex;
+     flex-direction: column;
+     align-items:center;
+     background-color: #000000;
+     margin-bottom: 10px;
+    }
+  
+    .hero {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     transform: translateX(-60%) translateY(-50%);
+ 
+    }
+ 
+    .anti {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     transform: translateX(30%) translateY(-150%);
+ 
+    }
+ 
+    .icons {
+     transform: translateX(30%) translateY(-950%);
+     display: flex;
+     flex-direction: row;
+     justify-content: center;
+    }
+ 
+    .fa-facebook {
+     font-size: 30px;
+    }
+ 
+    .fa-square-instagram {
+     font-size: 30px;
+    }
+    
+    .fa-square-behance {
+     font-size: 30px;
+    }
+ 
+    .welcome {
+     transform: translateX(30%) translateY(-570%);
+    }
+ 
+    .graph {
+     transform: translateX(30%) translateY(-1250%);
+    }
+  
+    h5 {
+     transform: translateX(30%) translateY(-3550%);
+   
+    }
+  .sec-2 {
+     background-color: #000000;
+  }
+ 
+  .wrapper {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     background-color: #000000;
+     transform: translateX(30%) translateY(-50%);
+  }
+ 
+  .content {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     background-color: #000000;
+     transform: translateX(30%) translateY(-50%);
+   
+  }
+ 
+  .charlie {
+     margin: 10px;
+  }
+ 
+  .prod {
+     transform: translateX(30%) translateY(-970%);
+  }
+ 
+  .canister {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     background-color: #000000;
+     transform: translateX(30%) translateY(-50%);
+  }
+ 
+  .sec-3 {
+     background-color: #000000;
+  }
+ 
+  .driver {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     transform: translateX(30%) translateY(-20%);
+  }
+ 
+  .universal-container {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     transform: translateX(30%) translateY(-10%);
+     
+  }
+ 
+  .p-accent {
+     font-size: 20px;
+  }
+ 
+  .com-2 {
+     font-size: 20px;
+  }
+   
+  .final-section2 {
+     transform: translateX(10%) translateY(40%);
+  }
+ 
+ .footer {
+     margin-left: 50px;
+     width: 100vh;
+     transform: translate(-10%);
+ }
+ 
+ } 
+
+ @media only  screen  and (max-width: 500px) {
+    .navbar {
+     margin-left: 200px;
+      margin-top: 10px; 
+      margin-bottom: 10px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      
+    }
+ 
+    .box {
+     font-size: 30px;
+     margin-bottom: 5px;
+    }
+ 
+    .logo {
+     font-size: 30px;
+    }
+ 
+    .villain {
+     display: flex;
+     flex-direction: column;
+     align-items:center;
+     background-color: #000000;
+     transform: translateX(70%) translateY(-40%);
+    }
+    
+    .gradient {
+         font-size: 50px;
+    }
+ 
+    h2, h3 {
+     font-size: 20px;
+     font-family: 'Poppins', sans-serif;  
+    
+    }
+ 
+    .explore {
+ 
+     transform: translateX(-50%) translateY(-50%);
+    }
+ 
+    .container {
+     display: flex;
+     flex-direction: column;
+     align-items:center;
+     background-color: #000000;
+     margin-bottom: 10px;
+    }
+  
+    .hero {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     transform: translateX(-60%) translateY(-50%);
+ 
+    }
+ 
+    .anti {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     transform: translateX(30%) translateY(-150%);
+ 
+    }
+ 
+    .icons {
+     transform: translateX(30%) translateY(-950%);
+     display: flex;
+     flex-direction: row;
+     justify-content: center;
+    }
+ 
+    .fa-facebook {
+     font-size: 30px;
+    }
+ 
+    .fa-square-instagram {
+     font-size: 30px;
+    }
+    
+    .fa-square-behance {
+     font-size: 30px;
+    }
+ 
+    .welcome {
+     transform: translateX(30%) translateY(-570%);
+    }
+ 
+    .graph {
+     transform: translateX(30%) translateY(-1250%);
+    }
+  
+    h5 {
+     transform: translateX(30%) translateY(-3550%);
+   
+    }
+  .sec-2 {
+     background-color: #000000;
+  }
+ 
+  .wrapper {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     background-color: #000000;
+     transform: translateX(30%) translateY(-50%);
+  }
+ 
+  .content {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     background-color: #000000;
+     transform: translateX(30%) translateY(-50%);
+   
+  }
+ 
+  .charlie {
+     margin: 10px;
+  }
+ 
+  .prod {
+     transform: translateX(30%) translateY(-970%);
+  }
+ 
+  .canister {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     background-color: #000000;
+     transform: translateX(30%) translateY(-50%);
+  }
+ 
+  .sec-3 {
+     background-color: #000000;
+  }
+ 
+  .driver {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     transform: translateX(30%) translateY(-20%);
+  }
+ 
+  .universal-container {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     transform: translateX(30%) translateY(-10%);
+     
+  }
+ 
+  .p-accent {
+     font-size: 20px;
+  }
+ 
+  .com-2 {
+     font-size: 20px;
+  }
+   
+  .final-section2 {
+     transform: translateX(10%) translateY(40%);
+  }
+ 
+ .footer {
+     margin-left: 50px;
+     width: 100vh;
+     transform: translate(-10%);
+ }
+ 
+ } 
